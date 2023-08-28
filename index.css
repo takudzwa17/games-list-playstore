@@ -220,7 +220,7 @@ main{
 }
 
 .promotion-deadline{
-    background-color: grey;
+    background-color: rgb(70, 69, 69);
     width: 80px;
     padding: 7px;
     color: white;
