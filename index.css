@@ -1,0 +1,391 @@
+body{
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    color: rgb(82, 82, 82);
+}
+
+nav{
+    padding: 0 25px;
+    display: flex;
+    flex-direction: row;
+    height: 70px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 60px;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(192, 190, 190);
+    z-index: 200;
+    box-shadow: 2px 15px 10px -17px #111;
+}
+
+main{
+    position: relative;
+    top: 80px;
+}
+
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 25px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.playstore-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 4px;
+    font-size: 22px;
+}
+
+.playstore-picture{
+    margin-top: 5px;
+    margin-left: -15px;
+}
+
+
+.username{
+    background-color: green;
+    margin-top: -3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+}
+
+.username-text{
+    color: white;
+}
+
+.right-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 15px;
+    cursor: pointer;
+    right: 0;
+}
+
+.search-icon,
+.help-icon{
+    margin-top: 4px;
+}
+
+.games-div{
+    position: relative;
+}
+
+.games{
+    color: green;
+}
+
+.games-div-tooltip{
+    position: absolute;
+    background-color: green;
+    width: 42px;
+    height: 3px;
+    border-radius: 3px;
+    top: 35px;
+    left: 2px;
+    
+}
+
+
+.search-bar{
+    margin-top: 4px;
+    border: none;
+}
+
+.types-of-devices{
+    padding: 20px 65px 12px 65px;
+    position: relative;
+}
+
+.types-of-devices-div{
+    display: flex;
+    column-gap: 20px;
+}
+
+.types-of-devices-div p{
+    font-size: 14px;
+}
+
+.windows{
+    margin-top: 2px;
+    display: flex;
+    column-gap: 10px;
+    width: 110px;
+    padding: 5px 10px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+}
+
+.phone{
+    margin-top: 2px;
+    display: flex;
+    column-gap: 10px;
+    width: 90px;
+    padding: 5px 10px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+}
+
+.phone-text{
+    color: green;
+}
+
+.tablet{
+    margin-top: 2px;
+    display: flex;
+    column-gap: 10px;
+    width: 90px;
+    padding: 5px 10px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+}
+
+.tv{
+    margin-top: 2px;
+    display: flex;
+    column-gap: 10px;
+    width: 70px;
+    padding: 5px 10px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+}
+
+.chromebook{
+    margin-top: 2px;
+    display: flex;
+    column-gap: 10px;
+    width: 140px;
+    padding: 5px 10px;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 20px;
+}
+
+
+.windows:hover,
+.phone:hover,
+.tablet:hover,
+.tv:hover,
+.chromebook:hover{
+    background-color: rgb(234, 231, 231);
+    cursor: pointer;
+}
+
+
+
+.windows-picture,
+.phone-picture,
+.tablet-picture,
+.tv-picture,
+.chromebook-picture{
+    width: 15px;
+    padding-left: 10px;
+}
+
+.promotion-section{
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+
+.promotion-details{
+    background-color: rgb(18, 18, 18);
+    border-radius: 20px 0 0 20px;
+}
+
+.promotion-section-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 65px;
+    margin-top: 20px;
+}
+
+.promotion-deadline{
+    background-color: grey;
+    width: 80px;
+    padding: 7px;
+    color: white;
+    border-radius: 15px 0;
+}
+
+.promotion-deadline p{
+    font-weight: 500;
+    color: white;
+}
+
+.promotion-text-div{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.promotion-text-one{
+    color: white;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.promotion-text-two{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.promotion-game-details{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 0;
+    column-gap: 15px;
+    justify-content: space-between;
+}
+
+.promotion-picture-and-names-div{
+    display: flex;
+    column-gap: 15px;
+}
+
+.promotion-game-details p{
+    color: white;
+}
+
+.promotion-game-names{
+    padding-top: 8px;
+}
+
+.game-manufacturer-div{
+    display: flex;
+}
+
+.game-manufacturer-div .game-manufacturer-text{
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+.middle-dot{
+    color: white;
+}
+
+.plus-rating{
+    font-weight: normal;
+    background-color: white;
+    font-size: 13px;
+    padding: 0 1px;
+    color: black;
+}
+
+.promotion-install-button{
+    width: 90px;
+    padding: 10px;
+    font-weight: 500;
+    color: white;
+    background-color: rgb(94, 93, 93);
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.promotion-install-button:hover{
+    background-color: rgb(75, 74, 74);
+}
+
+.promotion-picture{
+    width: 100%;
+    border-radius: 0 20px 20px 0;
+}
+
+.first-section{
+    padding: 20px 65px 12px 65px;
+}
+
+.new-games-and-load-more{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-one{
+    padding-bottom: 10px;
+}
+
+.top-rated-text{
+    color: black;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.load-more-text{
+    font-size: 13px;
+    color: rgb(128, 128, 247);
+    margin-top: 7px;
+}
+
+.game-image-div-main{
+    display: flex;
+    margin-top: 8px;
+    column-gap: 20px;
+}
+
+.game-details{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    margin-top: 10px;
+}
+
+.game-image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.game-name-text{
+    color: rgb(40, 40, 40);
+    font-size: 14px;
+}
+
+.game-manufacturer-text,
+.game-rating-text{
+    margin-top: 3px;
+    color: rgb(40, 40, 40);
+    font-size: 12px;
+}
+
+
+.game-profile-picture{
+    width: 60px;
+    border-radius: 10px;
+}
+
+
+.game-rating{
+    display: flex;
+    column-gap: 3px;
+}
+
+.game-rating-text{
+    margin-top: 5px;
+}
+
+
+
+
+
