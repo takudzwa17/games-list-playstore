@@ -450,6 +450,16 @@ main{
     margin-top: 50px;
 }
 
+.first-one{
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.first-one:hover{
+    background-color: rgb(236, 235, 235);
+}
+
 .second-section{
     margin-top: 50px;
     padding-bottom: 30px;
@@ -474,7 +484,6 @@ main{
 .game-image-div-main{
     display: flex;
     margin-top: 8px;
-    column-gap: 20px;
 }
 
 .game-details{
