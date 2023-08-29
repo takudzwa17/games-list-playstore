@@ -103,7 +103,6 @@ main{
     border-radius: 3px;
     top: 35px;
     left: 2px;
-    
 }
 
 
@@ -365,7 +364,6 @@ main{
 }
 
 .top-paid{
-    
     color: white;
     width: 65px;
     padding: 5px 15px;
@@ -387,11 +385,6 @@ main{
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.game-column-one{
-    border-radius: 8px;
-    cursor: pointer;
-    margin-top: -10px;
-}
 
 .football-league-div:hover,
 .candy-crush-soda-saga-div:hover,
@@ -411,7 +404,6 @@ main{
     column-gap: 20px;
     padding: 10px 12px;
     border-radius: 8px;
-    
 }
 
 .football-league-div .game-details,
@@ -432,19 +424,35 @@ main{
     align-items: center;
 }
 
+.game-column-one{
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
 .game-column-two{
-    
     padding: 10px 12px;
     border-radius: 5px;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
 .game-column-three{
     padding: 10px 12px;
     border-radius: 5px;
-    margin-top: -10px;
+    margin-top: -20px;
 }
 
+.game-name-and-type-and-rating .game-name-text{
+    font-size: 17px;
+}
+
+.game-name-and-type-and-rating .game-manufacturer-text{
+    font-size: 15px;
+}
+
+.game-name-and-type-and-rating .game-rating-text{
+    font-size: 15px;
+}
 
 .first-section{
     margin-top: 50px;
@@ -465,16 +473,19 @@ main{
     padding-bottom: 30px;
 }
 
-.new-games-and-load-more{
-    display: flex;
-    justify-content: space-between;
-}
 
 .first-one{
     padding-bottom: 10px;
 }
 
 .top-rated-text{
+    color: black;
+    font-size: 22px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.top-rated-text-display{
     color: black;
     font-size: 22px;
     margin-bottom: 30px;
@@ -526,7 +537,7 @@ main{
 }
 
 .show-more{
-    border-bottom: 1px solid rgb(201, 201, 201);
+    border-bottom: 1px solid rgb(236, 236, 236);
     display: flex;
     justify-content: center;
     align-items: center;

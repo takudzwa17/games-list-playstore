@@ -1,0 +1,1410 @@
+@media (max-width: 600px) {
+    .left-nav .playstore-text{
+        font-size: 16.5px;
+    }
+
+    .games-div-tooltip{
+        display: none;
+    }
+
+    .search-icon{
+        width: 26px;
+    }
+
+    .username{
+        background-color: green;
+        margin-top: -3px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 25px;
+        height: 25px;
+        border-radius: 25px;
+        margin-left: -5px;
+    }
+
+    .types-of-devices{
+        padding: 12px 15px 5px 15px;
+    }
+
+
+    .types-of-devices-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 10px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 15px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .promotion-deadline{
+        position: absolute;
+        width: 70px;
+        top: 0px;
+        border-radius: 15px 0;
+        background-color: rgb(24, 24, 24);
+    }
+
+    .promotion-deadline p{
+        font-size: 14px;
+    }
+
+    .promotion-picture{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .promotion-details{
+        margin-top: -60px;
+        border-radius: 0 0 20px 20px;
+        background-color: rgb(14, 14, 14)
+    }
+
+    .promotion-text-div{
+        margin-top: 0;
+    }
+
+    .promotion-text-one{
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+
+    .promotion-text-two{
+        display: none;
+    }
+    
+    .promotion-text-two-extension{
+        font-size: 13px;
+        color: white;
+        font-weight: 300;
+    }
+
+    .promotion-game-details{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 40px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 13px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 12px;
+        padding: 0 0;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 65px;
+        padding: 6px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 15px 5px 15px;
+    }
+
+    .top-charts-text{
+        font-size: 18px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .top-free{
+        background: rgb(227, 246, 227);
+        color: green;
+        width: 55px;
+        padding: 6px 15px;
+        border-radius:15px;
+        border: none;
+        margin-bottom: 3px;
+        cursor: pointer;
+    }
+    
+    .top-free p{
+        color: green;
+        font-size: 14px;
+    }
+
+    .top-grossing{
+        color: white;
+        width: 87px;
+        padding: 6px 15px;
+        border-radius:15px;
+        border: none;
+        margin-bottom: 3px;
+        border: 1px solid rgb(216, 216, 216);
+        cursor: pointer;
+    }
+
+    .top-grossing p,
+    .top-paid p{
+        font-size: 14px;
+    }
+
+    .top-paid{
+        color: white;
+        width: 55px;
+        padding: 6px 15px;
+        border-radius:15px;
+        border: none;
+        margin-bottom: 3px;
+        border: 1px solid rgb(216, 216, 216);
+        cursor: pointer;
+    }
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .game-column-two,
+    .game-column-three{
+        display: none;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 13px;
+    }
+
+    .game-name-and-type-and-rating .game-rating-text{
+        font-size: 13px;
+    }
+
+    .top-rated-text{
+        font-size: 18px;
+    }
+
+    .first-one{
+        margin-bottom: 25px;
+    }
+
+    .second-secton .top-rated-text{
+        padding-top: -20px;
+    }
+
+    .game-image-div-main{
+        display: grid;
+        margin-top: 8px;
+    }
+
+    .bottom-top-div{
+        display: grid;
+        row-gap: 20px;
+        font-size: 14.5px;
+    }
+
+    .left-bottom-section-div{
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        row-gap: 8px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 749px){
+    .left-nav .playstore-text{
+        font-size: 19.5px;
+    }
+
+    .games-div-tooltip{
+        display: none;
+    }
+
+    .types-of-devices{
+        padding: 12px 30px 5px 30px;
+    }
+
+    .types-of-devices-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        row-gap: 5px;
+        column-gap: 10px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 30px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .promotion-deadline{
+        position: absolute;
+        width: 70px;
+        top: 0px;
+        border-radius: 15px 0;
+        background-color: rgb(24, 24, 24);
+    }
+
+    .promotion-deadline p{
+        font-size: 14px;
+    }
+
+    .promotion-picture{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .promotion-picture{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .promotion-details{
+        margin-top: -60px;
+        border-radius: 0 0 20px 20px;
+        background-color: rgb(14, 14, 14)
+    }
+
+    .promotion-text-div{
+        margin-top: 0;
+    }
+
+    .promotion-text-one{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .promotion-text-two{
+        display: none;
+    }
+    
+    .promotion-text-two-extension{
+        font-size: 15px;
+        color: white;
+        font-weight: 300;
+    }
+
+    .promotion-game-details{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 50px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 12px;
+        padding: 0 1px;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 85px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 10px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 30px 5px 30px;
+    }
+
+    .top-charts-text{
+        font-size: 19px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .top-grossing p,
+    .top-paid p{
+        font-size: 15px;
+    }
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .game-column-two,
+    .game-column-three{
+        display: none;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 15px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-rating-text{
+        font-size: 14px;
+    }
+
+    .top-rated-text{
+        font-size: 19px;
+    }
+
+    .first-one{
+        margin-bottom: 25px;
+    }
+
+    .game-image-div-main{
+        display: grid;
+        margin-top: 8px;
+    }
+
+    .bottom-top-div{
+        display: grid;
+        row-gap: 20px;
+        font-size: 14.5px;
+    }
+
+    .left-bottom-section-div{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 8px;
+    }
+
+}
+
+@media (min-width: 750px) and (max-width: 839px){
+    .games-div-tooltip{
+        display: none;
+    }
+
+    .types-of-devices{
+        padding: 12px 20px 5px 20px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 20px;
+        margin-top: 40px;
+        position: relative;
+    }
+
+    .promotion-deadline{
+        position: absolute;
+        width: 70px;
+        top: 0px;
+        border-radius: 15px 0;
+        background-color: rgb(24, 24, 24);
+    }
+
+    .promotion-deadline p{
+        font-size: 14px;
+    }
+
+    .promotion-picture{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .promotion-picture{
+        border-radius: 20px 20px 0 0;
+    }
+
+    .promotion-details{
+        margin-top: -60px;
+        border-radius: 0 0 20px 20px;
+        background-color: rgb(14, 14, 14)
+    }
+
+    .promotion-text-div{
+        margin-top: 0;
+    }
+
+    .promotion-text-one{
+        font-size: 24px;
+        margin-bottom: 5px;
+    }
+
+    .promotion-text-two{
+        display: none;
+    }
+
+    .promotion-text-two-extension{
+        font-size: 15px;
+        color: white;
+        font-weight: 300;
+    }
+
+    .promotion-game-details{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 50px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 12px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 12px;
+        padding: 0 1px;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 90px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 20px 5px 20px;
+    }
+
+    .top-charts-text{
+        font-size: 19px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .top-grossing p,
+    .top-paid p{
+        font-size: 15px;
+    }
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .game-column-three{
+        display: none;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 15px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-rating-text{
+        font-size: 14px;
+    }
+
+    .top-rated-text{
+        font-size: 19px;
+    }
+
+    .top-rated-text-display{
+        display: none;
+    }
+
+    .game-image-div-main{
+        display: flex;
+        flex-direction: row;
+        margin-top: 8px;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 13px;
+    }
+}
+
+
+@media (min-width: 840px) and (max-width: 900px){
+    .games-div-tooltip{
+        position: absolute;
+        background-color: green;
+        width: 42px;
+        height: 3px;
+        border-radius: 3px;
+        top: 40px;
+        left: 2px;
+    }
+
+    .types-of-devices{
+        padding: 12px 30px 5px 30px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        padding: 0 30px;
+        margin-top: 40px;
+        position: relative;
+    }
+    .promotion-deadline p{
+        font-size: 14px;
+    }
+
+    .promotion-text-div{
+        margin-top: 35px;
+        margin-left: 20px;
+    }
+
+    .promotion-text-one{
+        color: white;
+        font-size: 22px;
+        font-weight: 500;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-text-two{
+        display: none;
+    }
+
+    .promotion-text-two-extension{
+        font-size: 13px;
+        color: white;
+        font-weight: 300;
+    }
+
+    .promotion-game-details{
+        margin-top: 18px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 50px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 14px;
+        width: 180px;
+        margin-top: 5px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 13px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 10px;
+        padding: 0 1px;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 90px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 30px 5px 30px;
+    }
+
+    .top-charts-text{
+        font-size: 19px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .top-grossing p,
+    .top-paid p{
+        font-size: 15px;
+    }
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .game-column-three{
+        display: none;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 15px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-rating-text{
+        font-size: 14px;
+    }
+
+    .top-rated-text{
+        font-size: 19px;
+    }
+
+    .top-rated-text-display{
+        display: none;
+    }
+
+    .game-image-div-main{
+        display: flex;
+        margin-top: 8px;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 999px){
+    .games-div-tooltip{
+        position: absolute;
+        background-color: green;
+        width: 42px;
+        height: 3px;
+        border-radius: 3px;
+        top: 41px;
+        left: 2px;
+    }
+
+    .types-of-devices{
+        padding: 12px 35px 5px 35px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        padding: 0 35px;
+        margin-top: 40px;
+        position: relative;
+    }
+    .promotion-deadline p{
+        font-size: 14px;
+    }
+
+    .promotion-text-div{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .promotion-text-one{
+        color: white;
+        font-size: 24px;
+        font-weight: 500;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-text-two{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    }
+
+    .promotion-text-two-extension{
+        display: none;
+    }
+
+    .promotion-game-details{
+        margin-top: 45px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 50px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 14px;
+        width: 220px;
+        margin-top: 5px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 13px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 10px;
+        padding: 0 1px;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 90px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 30px 5px 30px;
+    }
+
+    .top-charts-text{
+        font-size: 19px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    .top-grossing p,
+    .top-paid p{
+        font-size: 15px;
+    }
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .game-column-three{
+        display: none;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 15px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-rating-text{
+        font-size: 14px;
+    }
+
+    .top-rated-text{
+        font-size: 19px;
+    }
+
+    .top-rated-text-display{
+        display: none;
+    }
+
+    .game-image-div-main{
+        display: flex;
+        margin-top: 8px;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1079px){
+
+    .types-of-devices{
+        padding: 12px 40px 5px 40px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        padding: 0 40px;
+        margin-top: 40px;
+        position: relative;
+    }
+    .promotion-deadline p{
+        font-size: 15px;
+    }
+
+    .promotion-text-div{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .promotion-text-one{
+        color: white;
+        font-size: 27px;
+        font-weight: 500;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-text-two{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    }
+
+    .promotion-text-two-extension{
+        display: none;
+    }
+
+    .promotion-game-details{
+        margin-top: 55px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 50px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 16px;
+        width: 270px;
+        margin-top: 5px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 14px;
+        padding: 0 1px;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 90px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 40px 5px 40px;
+    }
+
+    .top-charts-text{
+        font-size: 21px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .top-rated-text{
+        font-size: 21px;
+    }
+
+    .top-rated-text-display{
+        display: none;
+    }
+
+    .game-image-div-main{
+        display: flex;
+        margin-top: 8px;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 1080px) and (max-width: 1179px){
+    .types-of-devices{
+        padding: 12px 40px 5px 40px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        padding: 0 40px;
+        margin-top: 40px;
+        position: relative;
+    }
+    .promotion-deadline p{
+        font-size: 15px;
+    }
+
+    .promotion-text-div{
+        margin-top: 30px;
+        margin-left: 20px;
+    }
+
+    .promotion-text-one{
+        color: white;
+        font-size: 32px;
+        font-weight: 500;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-text-two{
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 10px;
+    }
+
+    .promotion-text-two-extension{
+        display: none;
+    }
+
+    .promotion-game-details{
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 50px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 16px;
+        width: 300px;
+        margin-top: 5px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 14px;
+        padding: 0 1px;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 90px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 40px 5px 40px;
+    }
+
+    .top-charts-text{
+        font-size: 21px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .top-rated-text{
+        font-size: 21px;
+    }
+
+    .top-rated-text-display{
+        display: none;
+    }
+
+    .game-image-div-main{
+        display: flex;
+        margin-top: 8px;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 13px;
+    }
+
+    .game-image{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 1180px) and (max-width: 1299px){
+    .types-of-devices{
+        padding: 12px 65px 5px 65px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        padding: 0 65px;
+        margin-top: 40px;
+        position: relative;
+    }
+    .promotion-deadline p{
+        font-size: 16.5px;
+    }
+
+    .promotion-text-one{
+        color: white;
+        font-size: 34px;
+        font-weight: 500;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-text-two{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    }
+
+    .promotion-text-two-extension{
+        display: none;
+    }
+
+    .promotion-game-details{
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 50px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 16px;
+        width: 320px;
+        margin-top: 5px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 14px;
+        padding: 0 1px;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 90px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 40px 5px 40px;
+    }
+
+    .top-charts-text{
+        font-size: 21px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .top-rated-text{
+        font-size: 21px;
+    }
+
+    .top-rated-text-display{
+        display: none;
+    }
+
+    .game-image-div-main{
+        display: flex;
+        margin-top: 8px;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 13px;
+    }
+
+    .game-image{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+}
+
+@media (min-width: 1300px){
+    .types-of-devices{
+        padding: 12px 65px 5px 65px;
+    }
+
+    .promotion-section-div{
+        display: flex;
+        padding: 0 65px;
+        margin-top: 40px;
+        position: relative;
+    }
+    .promotion-deadline p{
+        font-size: 16.5px;
+    }
+
+    .promotion-text-one{
+        color: white;
+        font-size: 34px;
+        font-weight: 500;
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-text-two{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+    }
+
+    .promotion-text-two-extension{
+        display: none;
+    }
+
+    .promotion-game-details{
+        margin-top: 70px;
+        margin-bottom: 10px;
+    }
+
+    .promotion-game-profile-picture-div .game-profile-picture{
+        width: 50px;
+    }
+
+    .promotion-game-names{
+        padding: 2px;
+        font-size: 16px;
+        width: 360px;
+        margin-top: 5px;
+    }
+
+    .game-manufacturer-div .game-manufacturer-text{
+        font-size: 14px;
+        margin-top: 4px;
+    }
+
+    .plus-rating{
+        font-weight: normal;
+        background-color: white;
+        font-size: 14px;
+        padding: 0 1px;
+        color: black;
+    }
+
+    .promotion-install-button{
+        width: 90px;
+        padding: 10px;
+        font-weight: 500;
+        color: white;
+        background-color: rgb(94, 93, 93);
+        border: none;
+        border-radius: 5px;
+        margin-top: 8px;
+        cursor: pointer;
+    }
+
+    .top-chart-div{
+        padding: 40px 40px 5px 40px;
+    }
+
+    .top-charts-text{
+        font-size: 21px;
+        color: black;
+        font-weight: 500;
+    }
+
+    .top-div{
+        display: flex;
+        column-gap: 10px;
+        margin-top: 20px;
+    }
+
+    
+
+    .top-chart-games{
+        margin-top: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .top-rated-text{
+        font-size: 21px;
+    }
+
+    .top-rated-text-display{
+        display: none;
+    }
+
+    .game-image-div-main{
+        display: flex;
+        margin-top: 8px;
+    }
+
+    .game-name-and-type-and-rating .game-name-text{
+        font-size: 14px;
+    }
+
+    .game-name-and-type-and-rating .game-manufacturer-text{
+        font-size: 13px;
+    }
+
+    .game-image{
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+    }
+}
+
