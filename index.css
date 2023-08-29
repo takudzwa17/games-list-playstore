@@ -1,6 +1,6 @@
 body{
-margin: 0;
-padding: 0;
+margin-bottom: 0;
+padding-bottom: 0;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Roboto', sans-serif;
 }
@@ -49,7 +49,7 @@ main{
     justify-content: space-between;
     align-items: center;
     column-gap: 4px;
-    font-size: 22px;
+    font-size: 25px;
 }
 
 .playstore-picture{
@@ -230,6 +230,7 @@ main{
 .promotion-deadline p{
     font-weight: 500;
     color: white;
+    font-size: 15px;
 }
 
 .promotion-text-div{
@@ -268,6 +269,7 @@ main{
 .promotion-game-details p{
     color: white;
 }
+
 
 .promotion-game-names{
     padding-top: 8px;
@@ -315,8 +317,142 @@ main{
     border-radius: 0 20px 20px 0;
 }
 
+
+.top-chart-div{
+    padding: 40px 65px 5px 65px;
+}
+
+.top-charts-text{
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+
+.top-div{
+    display: flex;
+    column-gap: 15px;
+    margin-top: 20px;
+}
+
+.top-free{
+    background: rgb(227, 246, 227);
+    color: green;
+    width: 65px;
+    padding: 5px 15px;
+    border-radius:15px;
+    border: none;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.top-free p{
+    color: green;
+}
+
+.top-free:hover{
+    background: rgb(212, 244, 212);
+}
+
+.top-grossing{
+    color: white;
+    width: 95px;
+    padding: 5px 15px;
+    border-radius:15px;
+    border: none;
+    margin-bottom: 3px;
+    border: 1px solid rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.top-paid{
+    
+    color: white;
+    width: 65px;
+    padding: 5px 15px;
+    border-radius:15px;
+    border: none;
+    margin-bottom: 3px;
+    border: 1px solid rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.top-grossing:hover,
+.top-paid:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.top-chart-games{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.game-column-one{
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.football-league-div:hover,
+.candy-crush-soda-saga-div:hover,
+.my-talking-angela-2-div:hover,
+.candy-crush-saga-div:hover,
+.tile-tripple-div:hover{
+    background-color: rgb(217, 217, 217);
+    cursor: pointer;
+}
+
+.football-league-div,
+.candy-crush-soda-saga-div,
+.my-talking-angela-2-div,
+.candy-crush-saga-div,
+.tile-tripple-div{
+    display: flex;
+    column-gap: 20px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    
+}
+
+.football-league-div .game-details,
+.candy-crush-soda-saga-div .game-details,
+.my-talking-angela-2-div .game-details,
+.candy-crush-saga-div .game-details,
+.tile-tripple .game-detail{
+    column-gap: 8px;
+}
+
+.game-number,
+.game-number-candy-crush-soda,
+.game-number-talking-angela,
+.game-number-candy-crush,
+.game-number-tile-tripple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-column-two{
+    
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+.game-column-three{
+    padding: 10px 12px;
+    border-radius: 5px;
+    margin-top: -10px;
+}
+
+
 .first-section{
-    padding: 20px 65px 12px 65px;
+    margin-top: 50px;
+}
+
+.second-section{
+    margin-top: 50px;
+    padding-bottom: 30px;
 }
 
 .new-games-and-load-more{
@@ -330,14 +466,9 @@ main{
 
 .top-rated-text{
     color: black;
-    font-size: 18px;
+    font-size: 22px;
     margin-bottom: 30px;
-}
-
-.load-more-text{
-    font-size: 13px;
-    color: rgb(128, 128, 247);
-    margin-top: 7px;
+    font-weight: 500;
 }
 
 .game-image-div-main{
@@ -358,15 +489,15 @@ main{
 }
 
 .game-name-text{
-    color: rgb(40, 40, 40);
-    font-size: 14px;
+    color: rgb(26, 25, 25);
+    font-size: 15px;
 }
 
 .game-manufacturer-text,
 .game-rating-text{
     margin-top: 3px;
-    color: rgb(40, 40, 40);
-    font-size: 12px;
+    color: grey;
+    font-size: 14px;
 }
 
 
@@ -384,6 +515,79 @@ main{
 .game-rating-text{
     margin-top: 5px;
 }
+
+.show-more{
+    border-bottom: 1px solid rgb(201, 201, 201);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+
+.show-more p{
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.bottom-section{
+    margin-top: 30px;
+}
+
+.bottom-top-div{
+    display: flex;
+    column-gap: 200px;
+    font-size: 14.5px;
+}
+
+.google-play,
+.kids-family{
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.google-play-features,
+.kids-family-features{
+    margin-bottom: 8px;
+}
+
+
+.google-play-features:hover,
+.kids-family-features:hover{
+    cursor: pointer;
+    color: green;
+}
+
+.bottom-div{
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.bottom-div p{
+    font-size: 13px;
+}
+
+.left-bottom-section-div{
+    display: flex;
+    column-gap: 20px;
+}
+
+.bottom-div p:hover{
+    color: green;
+}
+
+.left-bottom-section-div p:hover{
+    cursor: pointer;
+}
+
+.left-bottom-section-div  .no-cursor:hover,
+.right-bottom-div .no-cursor:hover{
+    color: rgb(82, 82, 82);
+    cursor: text;
+}
+
 
 
 
